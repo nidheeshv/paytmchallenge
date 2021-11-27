@@ -8,7 +8,9 @@ console.log(process.env.REACT_APP_API_KEY);
 export default function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <header className="bg-blue-300 text-2xl p-2">Currency Converter</header>
+      <header className="bg-blue-300 text-2xl p-2">
+        Expense Report Manager
+      </header>
       <Home />
     </QueryClientProvider>
   );
